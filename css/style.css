@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 15px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+}
+a,a:hover,a:active {
+	text-decoration: none;
+	-webkit-transition: .5s all ease-in-out;
+	-moz-transition: .5s all ease-in-out;
+	transition: .5s all ease-in-out;
+}
+._bg {
+	background-color: #F6F9FA;padding: 1em 0;height: 100vh;
+}
+.body {
+	margin: 0 auto;
+	display: block;
+}
+._header {
+	height: 60px;
+	padding: 0 3em;
+}
+._logo img {
+	margin: 0 0;
+	float: left;
+}
+._nav { float: right; }
+._nav ul { margin: 0; padding: 0;list-style: none;}
+._nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 55px;
+}
+._nav ul li a {
+	color: #666;
+	font-size: 13px;
+}
+._nav ul li a:hover {
+	color: #D8232A;
+}
+.center_block {
+    margin: 0 auto;
+    display: block;
+}
+._textbody {
+	margin:11em 0 0;
+}
+._textbody h1 {
+	line-height: 40px;
+	color: #333333;
+	font-size: 30px;
+}
+._textbody p {
+	margin-top: 30px;
+	font-size: 14px;
+	color: #666;
+}
+._sendlink {
+	position: relative;
+	margin: 20px 0;
+}
+._sendlink input {
+	height: 40px;
+	line-height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
+	border-radius: 50px;
+	font-size: 11px;
+	padding:0 20px;
+	width: 70%;
+	font-weight: 600;
+}
+._sendlink input:focus {
+	border: 1px solid #68CCC1;
+}
+._sendlink input::placeholder {
+	font-size: 10px;
+	color: #666;
+}
+._sendlink > button {
+	background-image: linear-gradient(-269deg, #53CFC2 25%, #50D2BE 72%);
+	box-shadow: 0 4px 8px 0 #68CCC1;
+	border-radius: 30px;
+	padding: 13px 30px;
+	border: none;
+	color: #FFF;
+	font-size: 10px;
+	margin-left: -40px;
+	transition: .5s all ease-in-out;
+}
+._sendlink > button:hover {
+	box-shadow: 2px 5px 12px 0 #68CCC1;
+	transition: .5s all ease-in-out;
+}
+._turtle_app {
+	margin: 4em 3em;
+}
+._store img {
+	margin-top: 20px;
+}
+/* about us */
+.paddingtb50 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+ul._about {
+    list-style: none;
+    margin: 0;
+    padding: 3em 2em;
+}
+ul._about li {
+    display: inline-block;
+    width: 33%;
+    padding: 0 50px;
+}
+ul._about li:hover img {
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.3);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.3);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.3);
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
+}
+._about_body img {
+    max-width: 100%;
+    margin-bottom: 25px;
+    width: 75px;
+    height: 75px;
+    -webkit-transition: all 200ms ease-in-out;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);   
+    -moz-transition: all 200ms ease-in-out;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in-out;
+    transform: scale(1);
+}
+._about_body h4 {
+    font-size: 15px;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-align: center;
+}
+._about_body p {
+    font-size: 12px;
+    padding: 0 5px 0px;
+    line-height: 22px;
+    color: #666;
+    text-align: center;
+}
+._footersm {
+	padding-left: 80px;padding-right: 80px;
+}
+._footerbdr {
+	border-top: 1px solid #EEE;padding: 20px 0;
+}
+p._copyright {
+	font-size: 12px;
+	color: #999;
+}
+img._twc {
+	float: right;
+}
+
+
+@media only screen and (max-width:768px) {
+	._nav {
+		display: none;
+	}
+	._logo img {
+		margin: 0 auto;
+		float: none;
+		display: block;
+	}
+	._textbody {
+		margin: 2em 0;
+	}
+	._textbody h1 {
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+	}
+	._textbody p {
+		text-align: center;
+	}
+	._turtle_app {
+		float: left;
+		width: auto;
+	}
+	._sendlink input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	._sendlink > button {
+		width: 100%;
+		margin-left: 0;
+	}
+	._store {
+		text-align: center;
+	}
+	ul._about {
+		padding: 2em .5em;
+	}
+	ul._about li {
+		width: 100%;
+		margin-bottom: 50px;
+		padding: 0 0;
+	}
+	ul._about li:last-child {
+		margin-bottom: 10px;
+	}
+	._footersm {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	p._copyright {
+		font-size:10px;
+		text-align: center;
+	}
+	img._twc {
+		float: none;
+		margin: 10px auto;
+		display: block;
+	}
+}
